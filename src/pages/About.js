@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./About.css";
-import {profile_pic_furkan} from "../assets/profile_pic_furkan.jpg";
+import profile_pic_furkan from "../assets/profile_pic_furkan.jpg";
   
 export default class About extends Component {
   render() {
@@ -18,7 +18,7 @@ export default class About extends Component {
     </div>
     <div className="split right">
       <div className="centered">
-        <div className="name_title">Your Name</div>
+        <div className="name_title">Furkan Yayla</div>
         <div className="brief_description">
           {/* Details about you goes here */}
         </div>
