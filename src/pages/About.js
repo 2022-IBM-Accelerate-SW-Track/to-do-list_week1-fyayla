@@ -5,8 +5,12 @@ import profile_pic_furkan from "../assets/profile_pic_furkan.jpg";
 export default class About extends Component {
   render() {
     return (
+      
  <div>
     <div class="split left">
+    <div class="shape-blob"></div>
+        <div class="shape-blob one"></div>
+        <div class="shape-blob two"></div>
       <div className="centered">
         <img 
           className="profile_image"
